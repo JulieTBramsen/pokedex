@@ -21,7 +21,7 @@ export default function PokemonDetails(){
     return(
         <>
         <Container>
-            <Link to={"/"}>
+            <Link to={"/pokedex"}>
             <button>back</button>
             </Link>
             <h1>{pokemon?.id+". "+ pokemon?.name}</h1>
