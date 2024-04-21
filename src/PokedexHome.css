@@ -1,0 +1,13 @@
+.centerHeader{
+    float: none;
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+}
+.centerDiv{
+    float: none;
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
