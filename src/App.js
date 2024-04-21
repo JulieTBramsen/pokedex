@@ -8,8 +8,8 @@ function App() {
     
 return(
     <Routes>
-          <Route exact path="/" element={<PokedexHome/>} />
-          <Route path="/:clickedPokemon" element={<PokemonDetails/>} />
+          <Route exact path="/pokedex" element={<PokedexHome/>} />
+          <Route path="/pokedex:clickedPokemon" element={<PokemonDetails/>} />
     </Routes>
 )
   }
